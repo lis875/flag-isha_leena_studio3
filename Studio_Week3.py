@@ -1,7 +1,10 @@
 from turtle import *
-
+import turtle
+wn = Screen()
 speed(0)
-
+penup()
+back(200)
+pendown()
 #box1
 color("yellow")
 begin_fill()
@@ -158,5 +161,16 @@ right(90)
 forward(60)
 right(90)
 end_fill()
+
+penup()
+back(120)
+left(90)
+forward(20)
+right(90)
+forward(2)
+pendown()
+turtle.color('white')
+turtle.write("Expecto Patronum", font = ('Arial', 10, 'bold'))
+
 
 done()
